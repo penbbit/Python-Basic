@@ -23,18 +23,20 @@
 #     위의 모든 조건식이 False 일 경우 실행할 코드
 
 # [if 만 사용할 경우]
-# # if(조건식) :
-# #     if의 조건식이 True 일 경우 실행할 코드
+# if(조건식) :
+#     if의 조건식이 True 일 경우 실행할 코드
+
 # [if랑 elif만 사용한 경우]
-# # if(조건식) :
-# #     if의 조건식이 True 일 경우 실행할 코드
-# # elif(조건식) :
-# #     위의 조건식이 False 이고 elif의 조건식이 True 일 경우 실행할 코드
+# if(조건식) :
+#     if의 조건식이 True 일 경우 실행할 코드
+# elif(조건식) :
+#     위의 조건식이 False 이고 elif의 조건식이 True 일 경우 실행할 코드
+
 # [if 랑 else 만 사용하는 경우 ]
-# # if(조건식) :
-# #     if의 조건식이 True 일 경우 실행할 코드
-# # elif(조건식) :
-# #     위의 조건식이 False 이고 elif의 조건식이 True 일 경우 실행할 코드
+# if(조건식) :
+#     if의 조건식이 True 일 경우 실행할 코드
+# elif(조건식) :
+#     위의 조건식이 False 이고 elif의 조건식이 True 일 경우 실행할 코드
 
 
 # 위 형식들의 조건식이 있으며
@@ -144,3 +146,9 @@ print("(1:곱하기,2:나누기,3:더하기,4:빼기)")
 choice = int(input())
 if(choice == 1):
     print("곱하기를 선택하셨습니다.",num1,"*",num2, "=",num1 * num2,"입니다")
+elif(choice == 2):
+    print("나누기를 선택하셨습니다.",num1,"/",num2,"=",num1 / num2,"입니다")
+elif(choice == 3):
+    print("더하기를 선택하셨습니다.",num1,"+",num2,"=",num1 + num2,"입니다")
+elif(choice == 4):
+    print("빼기를 선택하셨습니다.",num1,"-",num2,"=",num1 - num2,"입니다")
