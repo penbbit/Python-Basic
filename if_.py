@@ -137,18 +137,18 @@
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
 
-print("두개의 숫자를 입력해주세요")
-num1 =int(input())
-num2 =int(input())
+# print("두개의 숫자를 입력해주세요")
+# num1 =int(input())
+# num2 =int(input())
 
-print("어떤 계산을 실행할까요?")
-print("(1:곱하기,2:나누기,3:더하기,4:빼기)")
-choice = int(input())
-if(choice == 1):
-    print("곱하기를 선택하셨습니다.",num1,"*",num2, "=",num1 * num2,"입니다")
-elif(choice == 2):
-    print("나누기를 선택하셨습니다.",num1,"/",num2,"=",num1 / num2,"입니다")
-elif(choice == 3):
-    print("더하기를 선택하셨습니다.",num1,"+",num2,"=",num1 + num2,"입니다")
-elif(choice == 4):
-    print("빼기를 선택하셨습니다.",num1,"-",num2,"=",num1 - num2,"입니다")
+# print("어떤 계산을 실행할까요?")
+# print("(1:곱하기,2:나누기,3:더하기,4:빼기)")
+# choice = int(input())
+# if(choice == 1):
+#     print("곱하기를 선택하셨습니다.",num1,"*",num2, "=",num1 * num2,"입니다")
+# elif(choice == 2):
+#     print("나누기를 선택하셨습니다.",num1,"/",num2,"=",num1 / num2,"입니다")
+# elif(choice == 3):
+#     print("더하기를 선택하셨습니다.",num1,"+",num2,"=",num1 + num2,"입니다")
+# elif(choice == 4):
+#     print("빼기를 선택하셨습니다.",num1,"-",num2,"=",num1 - num2,"입니다")

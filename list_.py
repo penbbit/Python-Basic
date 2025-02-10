@@ -120,32 +120,139 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
 
-list0 = []
-print(list0)
-print()
+# list0 = []
+# print(list0)
+# print()
 
-print("Q1.append를 사용해 list0에 1,2,3,4,5,6,7,8,9 를 차례로 추가시오.(반복문을 사용해도 좋다.)")
-for x in range(1,10,1):
-    list0.append(x)
-print(list0)
-print()
+# print("Q1.append를 사용해 list0에 1,2,3,4,5,6,7,8,9 를 차례로 추가시오.(반복문을 사용해도 좋다.)")
+# for x in range(1,10,1):
+#     list0.append(x)
+# print(list0)
+# print()
 
-print("Q2.insert함수를 사용해 list0의 0번째에 0을 추가하시오.")
-list0.insert(0,0)
-print(list0)
-print()
+# print("Q2.insert함수를 사용해 list0의 0번째에 0을 추가하시오.")
+# list0.insert(0,0)
+# print(list0)
+# print()
 
-print("Q3.del 함수를 이용해 list0의 3번쨰 원소를 삭제하시오.")
-del(list0[3])
-print(list0)
-print()
+# print("Q3.del 함수를 이용해 list0의 3번쨰 원소를 삭제하시오.")
+# del(list0[3])
+# print(list0)
+# print()
 
-print("Q4.del 함수를 이용해 list0의 5번째 원소를 삭제하시오.")
-del(list0[5])
-print(list0)
-print()
+# print("Q4.del 함수를 이용해 list0의 5번째 원소를 삭제하시오.")
+# del(list0[5])
+# print(list0)
+# print()
 
-print("Q5.remove 함수를 이용해 list0에서 1을 삭제하시오")
-list0.remove(1)
-print(list0)
-print()
+# print("Q5.remove 함수를 이용해 list0에서 1을 삭제하시오")
+# list0.remove(1)
+# print(list0)
+# print()
+
+# print("Q6.index 함수를 이용해 list0에서 5가 몇번째에 위치했는지 출력하시오.")
+# print(list0.index(5))
+# print()
+
+# print("Q7.index 함수를 이용하여 list0에서 6이 존재하는지 확인하시오.몇번째에 이치해ㅆ는지 출력하시오.")
+# try :
+#     print(list0.index(6))
+# except :
+#     print("6이 없음")
+# print()
+
+# print("Q8.len 함수를 이용해 list0의 원소의 개수를 출력하시오.")
+# print(len(list0))
+# print()
+
+# print("Q9.print(list0)을하여 리스트를 출력하시오.")
+# print(list0)
+# print()
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# week = ['Mon','Thu','Wed','Thu','Fri']
+# print(week)
+# print()
+
+# print("Q1.'Sat'와'Sun'을 차례로 뒤에 추가하시오")
+# week.append('Sat')
+# week.append('Sun')
+# print(week)
+# print()
+
+# print("Q2.첫번째 'Thu'를 지우고 그자리에 'Tue'를 삽입하시오.")
+# del(week[1])
+# week.insert(1,'Tue')
+# print(week)
+# print()
+
+# print("Q3.'Wed'의 인덱스를 출력하시오")
+# print(week.index('Wed'))
+# print()
+
+# print("Q4.week 리스트 변수의 원소의 개수를 출력하시오.")
+# print(len(week))
+# print()
+
+# print("Q5.print(week)를 실행하시오.")
+# print(week)
+# print()
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# print("점수를 입력하세요.(끝낼 시 0을 입력)")
+# nums = []                   # 리스트에 누적할려면 반복문 밖에 있어야함
+
+# while(True):
+#     num = int(input())
+#     if(num==0):             # break를 먼저하면 리스트에 안들어가서 len-1을 안해도 됨
+#         break
+
+#     nums.append(num)
+
+# avg = sum(nums)//(len(nums))
+# print("평균은", avg, "입니다")
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=+++++++++++++++++++++++#
+
+
+# in
+# in은 리스트에 해당 값이 있는지 없는지를 True,False로 알려줌, if에 주로 사용
+# 찾을값 in 리스트명
+# 위 형식으로 사용함
+
+# numbers = [1, 2, 3, 4, 5]
+# print(2 in numbers)
+# print(8 in numbers)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# 이중 리스트
+# 하나의 리스트 내부에 또다른 리스트가 있는 경우
+# 내부 리스트의 값을 참조할 때는 []를 2개 사용한다.
+
+list1 = [1, 'cit', True]
+list2 = [3, 2, 'py']
+list3 = [list1, list2]
+print(list1)
+print(list2)
+print(list3)
+print(list3[0][1])
+print(list3[1][1])
+print(list3[0])
+
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# 삼중 리스트(3차원 리스트)
+# 하나의 리스트 내부에 또다른 하나의 리스트 내부에 또다른 리스트가 있는것
+# 값을 참조할 때 []를 3개 사용한다.

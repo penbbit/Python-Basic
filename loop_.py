@@ -135,23 +135,23 @@ i = 2
 #     print("1, hello 출력")
 #     print("2, hi 출력")
 #     print("3, exit")
-#     menu = int(input())
+    # menu = int(input())
 
-#     if(menu == 1):
-#         print("hello")
-#     elif(menu == 2):
-#         print("hi")
-#     elif(menu == 3):
-#         print("메뉴 프로그램을 종료 합니다")
-#         break
-#     else:
-#         print("잘못 입력했습니다.1-3 숫자를 입력해주세요.")
-#         print()
-#         print()
-#         continue
+    # if(menu == 1):
+    #     print("hello")
+    # elif(menu == 2):
+    #     print("hi")
+    # elif(menu == 3):
+    #     print("메뉴 프로그램을 종료 합니다")
+    #     break
+    # else:
+    #     print("잘못 입력했습니다.1-3 숫자를 입력해주세요.")
+    #     print()
+    #     print()
+    #     continue
 
-#     print()
-#     print()
+    # print()
+    # print()
 
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
