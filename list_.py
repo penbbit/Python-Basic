@@ -170,7 +170,7 @@
 # print()
 
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
 
 # week = ['Mon','Thu','Wed','Thu','Fri']
@@ -239,15 +239,15 @@
 # 하나의 리스트 내부에 또다른 리스트가 있는 경우
 # 내부 리스트의 값을 참조할 때는 []를 2개 사용한다.
 
-list1 = [1, 'cit', True]
-list2 = [3, 2, 'py']
-list3 = [list1, list2]
-print(list1)
-print(list2)
-print(list3)
-print(list3[0][1])
-print(list3[1][1])
-print(list3[0])
+# list1 = [1, 'cit', True]
+# list2 = [3, 2, 'py']
+# list3 = [list1, list2]
+# print(list1)
+# print(list2)
+# print(list3)
+# print(list3[0][1])
+# print(list3[1][1])
+# print(list3[0])
 
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
@@ -256,3 +256,46 @@ print(list3[0])
 # 삼중 리스트(3차원 리스트)
 # 하나의 리스트 내부에 또다른 하나의 리스트 내부에 또다른 리스트가 있는것
 # 값을 참조할 때 []를 3개 사용한다.
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# Cafe = ['Starlucks','Mollys','Emiya','FomAFams']
+# Main = ['Americano','cappuccino','cafelatte','Americano']
+# Price = [3700,4600,3200,4100]
+# Location = ['Astreet','Bstreet','cafelatte', 'Americano']
+# CafeTable = [Cafe,Main,Price,Location]
+# print(CafeTable)
+# print()
+
+# # 이중 리스트의 내용을 한줄씩 보기
+# for i in CafeTable:
+#     print(i)
+# print()
+
+# # 가격의 정보만 출력
+# print(CafeTable[2])
+# print()
+
+# #Mollys의 정보만 출력
+# for i in range(len(CafeTable)):
+#     print(CafeTable[i][1], end=' ')
+# print()
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+# A = [1,4,5]
+# B = [2,3,6]
+# C = []
+
+# for i in A:
+#     for x in B:
+#         C.append(i*x)
+# for z in C:
+#     print(z)
+
+
+    
