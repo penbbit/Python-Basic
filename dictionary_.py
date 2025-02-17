@@ -63,26 +63,26 @@ print(dicti['classnumber'])
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
 
-Americano = {'Starlucks': 3700, 'Mollys': 4100, 'Anzelinus': 4900, 'Coffejean': 4800}
-print(Americano)
-print()
+# Americano = {'Starlucks': 3700, 'Mollys': 4100, 'Anzelinus': 4900, 'Coffejean': 4800}
+# print(Americano)
+# print()
 
 # 딕셔너리 for문의 특징
 # 키만 출력
-for i in Americano:
-    print(i)
-print()
+# for i in Americano:
+#     print(i)
+# print()
 
 #값만 출력
-for i in Americano.values():
-    print(i)
-print()
+# for i in Americano.values():
+#     print(i)
+# print()
 
-for x in Americano:
-    print(Americano[x])
-print()
+# for x in Americano:
+#     print(Americano[x])
+# print()
 
 #키와 값을 모두 출력
-for x,y in Americano.items():
-    print(x, y)
-print()
+# for x,y in Americano.items():
+#     print(x, y)
+# print()

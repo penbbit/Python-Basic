@@ -269,16 +269,16 @@
 # print(CafeTable)
 # print()
 
-# # 이중 리스트의 내용을 한줄씩 보기
+# 이중 리스트의 내용을 한줄씩 보기
 # for i in CafeTable:
 #     print(i)
 # print()
 
-# # 가격의 정보만 출력
+# 가격의 정보만 출력
 # print(CafeTable[2])
 # print()
 
-# #Mollys의 정보만 출력
+# Mollys의 정보만 출력
 # for i in range(len(CafeTable)):
 #     print(CafeTable[i][1], end=' ')
 # print()
@@ -296,6 +296,3 @@
 #         C.append(i*x)
 # for z in C:
 #     print(z)
-
-
-    
